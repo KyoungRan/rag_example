@@ -1,0 +1,26 @@
+[project]
+name = "rag-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "langchain>=0.3.27",
+    "langchain-anthropic>=0.3.21",
+    "langchain-chroma>=0.2.6",
+    "langchain-cohere>=0.4.6",
+    "langchain-core>=0.3.77",
+    "langchain-elasticsearch>=0.3.2",
+    "langchain-experimental>=0.3.4",
+    "langchain-google-genai>=2.1.12",
+    "langchain-huggingface>=0.3.1",
+    "langchain-milvus>=0.2.1",
+    "langchain-openai>=0.3.34",
+    "langchain-teddynote>=0.5.1",
+    "langchain-text-splitters>=0.3.11",
+    "langchain-upstage>=0.7.3",
+    "openai>=2.1.0",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.1.1",
+]
